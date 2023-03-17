@@ -1,0 +1,1 @@
+That is the dir of the first project of c programming in alx software engineering program #cohort_13
