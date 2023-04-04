@@ -22,7 +22,7 @@ int main(void)
 					putchar(32);
 					putchar(k + 48);
 					putchar(l + 48);
-					if (j == 8 && l == 9)
+					if ((j == 8 && l == 9) && (i == 9 && k == 9))
 					continue;
 				putchar(44);
 				putchar(32);
