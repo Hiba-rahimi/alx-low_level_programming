@@ -6,7 +6,8 @@
  */
 int main(void)
 {
-	char* m ="_putchar\n";
+	char *m = "_putchar\n";
+
 	write(STDOUT_FILENO, m, strlen(m));
 	return (0);
 }
