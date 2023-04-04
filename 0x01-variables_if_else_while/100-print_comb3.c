@@ -10,16 +10,17 @@ int main(void)
 
 	for (i = 48 ; i < 57 ; i++)
 	{
-		for (j = 49 ; j < 58 ; j++)
+		for (j = 48 ; j < 58 ; j++)
 		{
-			if (i == j)
-				continue;
-		putchar(i);
-		putchar(j);
+			if (((i - 48) * 10 + (j - 48) < ((j - 48) * 10 + (i - 48))))
+			{
+				putchar(i);
+				putchar(j);
 			if (i == 56 && j == 57)
 				continue;
 		putchar (44);
 		putchar(32);
+			}
 		}
 	}
 	putchar('\n');
