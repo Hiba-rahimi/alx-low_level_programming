@@ -10,7 +10,7 @@ int main(void)
 	for (i = 97 ; i < 123 ; i++)
 	{
 		printf("%c", i);
-		printf("\n");
 	}
+	printf("\n");
 	return (0);
 }
