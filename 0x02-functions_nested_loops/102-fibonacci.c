@@ -9,16 +9,14 @@
 int main(void)
 {
 int count = 0;
-unsigned long i, b, c, d;
+unsigned long i, b, d;
 i = 0;
 b = 1;
-c = 0;
 d = 0;
 
 while (count < 50)
 {
 	printf("%lu", b + i);
-	c = b;
 	d = b + i;
 	i = b;
 	b = d;
