@@ -13,14 +13,14 @@ if (strlen(str) % 2 == 0)
 {
 	for (i = (strlen(str)) / 2 ; i < strlen(str)  ; i++)
 	{
-		putchar(str[i]);
+		_putchar(str[i]);
 	}
 }
 else
 {
 	for (i = (strlen(str) - 1) / 2 ; i < strlen(str) - 1  ; i++)
 	{
-		putchar(str[i + 1]);
+		_putchar(str[i + 1]);
 	}
 }
 _putchar('\n');
