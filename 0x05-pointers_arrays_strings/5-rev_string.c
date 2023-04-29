@@ -15,7 +15,7 @@ j = strlen(s) - 1;
 	for (i = 0 ; i < j ; i++, j--)
 	{
 		temp = s[i];
-		s[i] = s[j];
-		s[j] = temp;
+		s[i] = s[j - 1];
+		s[j - 1] = temp;
 	}
 }
